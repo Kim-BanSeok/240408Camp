@@ -8,8 +8,11 @@
 - part2-JavaScript
 - part3-Browser
 
-3. 동적 브라우저 구현
+3. 미니 프로젝트 기획
+- mini-project
+
+4. 동적 브라우저 구현
 - Basic
 
-4. 데이터 불러와서 저장 및 출력
+5. 데이터 불러와서 저장 및 출력
 - OpenAPI
