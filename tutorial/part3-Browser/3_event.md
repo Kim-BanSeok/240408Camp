@@ -1,12 +1,18 @@
 ## 자바스크립트 이벤트
 
-브라우저 이벤트는 웹 페이지에서 발생하는 다양한 사용자 상호작용(예: 클릭, 스크롤, 키보드 입력 등)을 나타냅니다. 웹 페이지에서는 이러한 이벤트를 감지하고, 필요한 작업을 수행하기 위한 코드(이벤트 리스너)를 작성할 수 있습니다. 이벤트의 유형에는 다음과 같은 것들이 있습니다.
+브라우저 이벤트는 웹 페이지에서 발생하는 다양한 사용자 상호작용(예: 클릭, 스크롤, 키보드 입력 등)을 나타냅니다. 웹 페이지에서는 이러한 이벤트를 감지하고, 필요한 작업을 수행하기 위한 코드(이벤트 리스너)를 작성할 수 있습니다. 
 
-> 마우스 이벤트: click, dblclick, mousedown, mouseup, mouseover, mouseout 등  
-키보드 이벤트: keydown, keyup, keypress  
-폼 이벤트: submit, change, focus, blur  
-문서 로딩 이벤트: DOMContentLoaded, load, unload, abort, error  
-UI 이벤트: resize, scroll
+- 마우스 이벤트: click, dblclick, mousedown, mouseup, mouseover, mouseout 등  
+- 키보드 이벤트: keydown, keyup, keypress  
+- 폼 이벤트: submit, change, focus, blur  
+- 문서 로딩 이벤트: DOMContentLoaded, load, unload, abort, error  
+- UI 이벤트: resize, scroll
+
+<br/>
+
+***
+
+<br/>
 
 ## 자바스크립트 이벤트 종류
 
@@ -209,9 +215,14 @@ UI 이벤트: resize, scroll
 | JavaScript Animations | animationDiv | CSS 위치 속성을 조작하여 애니메이션을 만드는 코드, 이벤트는 직접적으로 사용되지 않으나 `requestAnimationFrame`을 이용 |
 | Scroll Event | myScrollDiv | 스크롤 이벤트, 스크롤 시 발생하며 스크롤된 거리를 로그에 출력 |
 
-<br/><br/>
+<br/>
+
+***
+
+<br/>
 
 ## 자바스크립트 이벤트 유형  
+
 이벤트 처리에서 중요한 개념인 버블링(bubbling)과 캡처링(capturing)은 이벤트가 DOM 트리를 통해 어떻게 전파되는지를 설명합니다.
 
 | 구분 | 이벤트 캡처링 (Capturing) | 이벤트 버블링 (Bubbling) |
@@ -270,7 +281,11 @@ UI 이벤트: resize, scroll
 </html>
 ```
 
-<br/><br/>
+<br/>
+
+***
+
+<br/>
 
 ## 커스텀 이벤트 디스패치
 
@@ -283,8 +298,7 @@ UI 이벤트: resize, scroll
 | 이벤트 리스너 추가 | `addEventListener` 메소드를 사용하여 DOM 요소에 이벤트 리스너를 추가합니다. 이 리스너는 커스텀 이벤트가 디스패치될 때 호출됩니다. 이벤트 리스너는 이벤트의 상세 정보에 접근할 수 있으며, 이를 기반으로 특정 로직을 수행할 수 있습니다. | `element.addEventListener(eventName, handler)` |
 | 이벤트 흐름 | 커스텀 이벤트도 표준 DOM 이벤트처럼 버블링(bubbling) 또는 캡처(capturing) 단계를 통해 전파될 수 있습니다. 이벤트 생성 시 `bubbles`와 `cancelable` 옵션을 설정하여 이러한 동작을 제어할 수 있습니다. | `new CustomEvent(eventName, { bubbles: true, cancelable: true })` |
 
-> "디스패치(dispatch)"란 특정한 작업이나 명령을 수행하도록 요청하거나 전달하는 것을 의미합니다. 컴퓨터 과학 분야에서
- 이 용어는 주로 이벤트 기반 시스템에서 사용됩니다.
+> "디스패치(dispatch)"란 특정한 작업이나 명령을 수행하도록 요청하거나 전달하는 것을 의미합니다. 컴퓨터 과학 분야에서 이 용어는 주로 이벤트 기반 시스템에서 사용됩니다.
 
 ```html
 <!DOCTYPE html>

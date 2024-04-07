@@ -14,16 +14,22 @@
 | 방식 | 설명 |
 |-----|-----|
 | 콜백 함수(Callback Functions) | 비동기 작업이 완료되었을 때 호출되는 함수로, setTimeout, setInterval, 파일 읽기, 네트워크 요청 등에 주로 사용됩니다. |
-| 프로미스(Promises) | 비동기 작업의 성공 또는 실패와 관련된 값을 나타내는 객체로, 비동기 작업을 구조화하고 관리하는 데 사용됩니다. |
+| 프로미스(Promise) | 비동기 작업의 성공 또는 실패와 관련된 값을 나타내는 객체로, 비동기 작업을 구조화하고 관리하는 데 사용됩니다. |
 | async/await | 프로미스를 사용하는 더 간편한 방법으로, 비동기 코드를 동기적으로 작성할 수 있도록 합니다. |
 
-> - [Promise](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)의 메소드 종류  
-> `Promise.all()` 실행 가능한 모든 프로미스 반환  
-> `Promise.then()` 반환된 프로미스 체이닝  
-> `Promise.reject()` 프로미스 then 객체를 거부  
-> `Promise.resolve()` 프로미스 then 객체를 반환  
-> `Promise.catch()` 프로미스 에러 반환  
-> `Promise.finally()` 마지막 프로미스 체이닝
+<br/>
+
+***
+
+<br/>
+
+### [Promise](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)의 Method 종류  
+`Promise.all()` 실행 가능한 모든 프로미스 반환  
+`Promise.then()` 반환된 프로미스 체이닝  
+`Promise.reject()` 프로미스 then 객체를 거부  
+`Promise.resolve()` 프로미스 then 객체를 반환  
+`Promise.catch()` 프로미스 에러 반환  
+`Promise.finally()` 마지막 프로미스 체이닝
 
 
 ```js
@@ -66,8 +72,15 @@ async function readAndShowFile() {
 readAndShowFile();
 ```
 
+<br/>
 
-- JavaScript 콜백 함수(Callback Functions)로 시간에 따라 함수 호출을 스케줄링
+***
+
+<br/>
+
+### 콜백 함수(Callback Functions)
+
+콜백 함수를 통해 시간에 따라 함수 호출을 스케줄링할 수 있습니다.
 
 | 함수              | 설명 |
 |------------------|------|

@@ -1,6 +1,6 @@
 ## 자바스크립트 모듈
 
-- 자바스크립트 모듈의 주요 이점
+### 자바스크립트 모듈의 주요 이점
 
 | 이점 | 설명 |
 |------|------|
@@ -9,16 +9,26 @@
 | 의존성 관리 | 다른 모듈에 대한 명시적 선언을 통한 쉬운 의존성 관리 |
 | 유지보수 | 모듈별 코드 구분으로 간편한 유지보수 |
 
+<br/>
 
-- 자바스크립트 모듈 시스템 종류
+***
+
+<br/>
+
+### 자바스크립트 모듈 시스템 종류
 
 | 종류 | 설명 |
 |-------------|------|
 | ES6 모듈    | 최신 자바스크립트 표준인 ECMAScript 2015 (ES6)에 도입된 모듈 시스템입니다. `import`와 `export` 키워드를 사용하여 모듈을 불러오고 내보낼 수 있습니다. |
 | CommonJS 모듈 | 주로 Node.js 환경에서 사용되는 모듈 시스템으로, `require` 함수를 사용해 모듈을 불러오고, `module.exports`를 통해 모듈을 내보냅니다. |
 
+<br/>
 
-- 자바스크립트 모듈 시스템 비교 및 실행
+***
+
+<br/>
+
+### 자바스크립트 모듈 시스템 비교 및 실행
 
 | 구분 | ES6 모듈 | CommonJS 모듈 |
 |------|----------|---------------|
@@ -27,14 +37,26 @@
 | 웹 브라우저에서 실행 | `<script type="module" src="app.js"></script>`로 로드 | - |
 | Node.js에서 실행 | `.mjs` 확장자 사용 또는 `package.json`에 `"type": "module"` 추가, `node app.js` 또는 `node app.mjs` 실행 | `node app.js` 명령어 사용 |
 
-- ES6의 모듈 시스템 Export와 Import 기능 비교
+<br/>
+
+***
+
+<br/>
+
+### ES6의 모듈 시스템 Export와 Import 기능 비교
 
 | 기능   | 설명 |
 |--------|------|
 | Export | 모듈에서 특정 기능(함수, 클래스, 객체 등)을 외부에 제공하기 위해 사용합니다. 예를 들어, `export function myFunction() { ... }` 형태로 함수를 내보낼 수 있습니다. |
 | Import | 다른 모듈에서 export된 기능을 사용하기 위해 `import` 문을 사용합니다. 예를 들어, `import { myFunction } from 'myModule'` 형태로 특정 모듈에서 함수를 가져옵니다. |
 
-- ES6 모듈
+<br/>
+
+***
+
+<br/>
+
+### ES6 모듈
 
 ```js
 // 1. 모듈 생성 및 내보내기 (Export)
@@ -59,7 +81,13 @@ console.log(Bread("saltBread"));       // "소금빵" 출력
 console.log(recommend("breakfast"));   // "chocoBread" 출력
 ```
 
-- CommonJS 모듈
+<br/>
+
+***
+
+<br/>
+
+### CommonJS 모듈
 
 ```js
 // 모듈 내보내기
