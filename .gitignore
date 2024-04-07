@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
-tutorial/mini-project/img/*
 
 package-lock.json
 package.json
