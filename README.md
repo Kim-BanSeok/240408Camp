@@ -1,5 +1,5 @@
 
-1. IDE 기본 설정 및 Git
+1. IDE 기본 설정 및 Git (서브모듈 settings)
 - Settings
 - Git
 
@@ -11,7 +11,7 @@
 3. 미니 프로젝트 기획
 - mini-project
 
-4. 동적 브라우저 구현
+4. 동적 브라우저 구현 (서브모듈 basic)
 - Basic
 
 5. 데이터 불러와서 저장 및 출력
